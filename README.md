@@ -1,8 +1,9 @@
-# React + Vite
+# Opay Clone
+My aims of building this are :
+1. To build my skills as a frontend developer.
+2. To build my confidence so that I will be bold enough to carry myself as a techie.
+3. To build my portfolio so that it will be able to attract recognition.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Let's See How It Goes From Here 🔥
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If you have any suggestions or questions, you can  reach out to me by sending a email [here](chigbovcm2020@gmail.com).

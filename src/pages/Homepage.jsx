@@ -1,9 +1,19 @@
-import TopNav from "../components/TopNav";
+import BalanceCard from "../components/BalanceCard";
+import BottomNavBar from "../components/BottomNavBar";
+import PaymentCard from "../components/PaymentCard";
+import TopNav from "../components/TopBar";
+import TransferCard from "../components/TransferCard";
 
 const Homepage = () => {
     return (
-        <div>
-            
+        <div className="container p-5 bg-gray-50 f">
+            <div className="flex flex-col">
+                <TopNav />
+                <BalanceCard />
+                <TransferCard />
+                <PaymentCard />
+                <BottomNavBar />
+            </div>
         </div>
     )
 }
