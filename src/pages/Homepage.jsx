@@ -6,7 +6,7 @@ import TransferCard from "../components/TransferCard";
 
 const Homepage = () => {
     return (
-        <div className="container p-5 bg-gray-50 f">
+        <div className="container p-5 bg-gray-50">
             <div className="flex flex-col">
                 <TopNav />
                 <BalanceCard />

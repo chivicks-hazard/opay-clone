@@ -6,7 +6,7 @@ import { LuCircleDot } from "react-icons/lu"
 
 const BottomNavBar = () => {
     return (
-        <div className="flex flex-row justify-center items-center space-x-10 p-2 fixed bottom-0 left-0 right-0 bg-white" >
+        <div className="flex flex-row justify-center items-center space-x-7 p-2 fixed bottom-0 left-0 right-0 bg-white" >
             <div className="flex flex-col justify-center items-center">
                 <div className="">
                     <LuCircleDot className="text-2xl text-green-700" />

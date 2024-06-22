@@ -12,7 +12,7 @@ const BalanceCard = () => {
 
     return (
         <div className="flex flex-col rounded-xl bg-green-500 space-y-5 p-3 text-white">
-            <div className="flex flex-row space-x-11">
+            <div className="flex flex-row space-x-2">
                 <span className="inline-flex space-x-1">
                     <MdGppGood className="inline mt-1"/>
                     <span>Available Balance</span>
@@ -25,7 +25,7 @@ const BalanceCard = () => {
                     <FaAngleRight className="inline mt-1"/>
                 </a>
             </div>
-            <div className={`flex flex-row ${displayBalance ? 'space-x-28' : 'space-x-44'}`}>
+            <div className={`flex flex-row ${displayBalance ? 'space-x-20' : 'space-x-36'}`}>
                 <h3 className="text-3xl">
                     {
                         displayBalance ? 
