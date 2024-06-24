@@ -4,8 +4,8 @@ import Opay from "../assets/images/Opay.svg?react";
 
 const TopBar = () => {
     return (
-        <div className="flex flex-row p-5 bg-white space-x-16">
-            <div className="flex flex-row mr-5">
+        <div className="flex flex-row p-5 bg-white space-x-8 justify-center items-center fixed top-0 left-0 right-0">
+            <div className="flex flex-row mr-5 space-x-1">
                 <FaAlgolia className="mt-2 text-2xl mr-2
                 "></FaAlgolia>
                 <h1 className="text-2xl">HI, VICTOR</h1>

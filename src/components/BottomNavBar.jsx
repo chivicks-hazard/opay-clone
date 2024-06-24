@@ -6,45 +6,45 @@ import { LuCircleDot } from "react-icons/lu"
 
 const BottomNavBar = () => {
     return (
-        <div className="flex flex-row justify-center items-center space-x-7 p-2 fixed bottom-0 left-0 right-0 bg-white" >
-            <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-row justify-center items-center space-x-2 p-2 fixed bottom-0 left-0 right-0 bg-white" >
+            <div className="flex flex-col justify-center items-center w-1/5">
                 <div className="">
                     <LuCircleDot className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-1">Home</p>
+                <p className="font-medium mt-1 text-sm">Home</p>
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center w-1/5">
                 <div className="">
                     <IoDiamond className="text-2xl" />
                 </div>
 
-                <p className="font-medium mt-1">Rewards</p>
+                <p className="font-medium mt-1 text-sm">Rewards</p>
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center w-1/5">
                 <div className="">
                     <LuCircleDot className="text-2xl" />
                 </div>
 
-                <p className="font-medium mt-1">Finances</p>
+                <p className="font-medium mt-1 text-sm">Finances</p>
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center w-1/5">
                 <div className="">
                     <HiOutlineCreditCard className="text-2xl" />
                 </div>
 
-                <p className="font-medium mt-1">Card</p>
+                <p className="font-medium mt-1 text-sm">Card</p>
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center w-1/5">
                 <div className="">
                     <CgSmileMouthOpen className="text-2xl" />
                 </div>
 
-                <p className="font-medium mt-1">Me</p>
+                <p className="font-medium mt-1 text-sm">Me</p>
             </div>
         </div>
     )

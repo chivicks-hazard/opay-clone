@@ -24,7 +24,7 @@ const PaymentCard = () => {
                     <TbMobiledata className="text-md text-white -mt-5 ml-[0.40rem]" />
                 </div>
                 
-                <p className="font-medium mt-2">Data</p>
+                <p className="font-medium mt-2 text-sm">Data</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -32,7 +32,7 @@ const PaymentCard = () => {
                     <RiFootballFill className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">Betting</p>
+                <p className="font-medium mt-2 text-sm">Betting</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -40,7 +40,7 @@ const PaymentCard = () => {
                     <PiTelevisionSimple className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">TV</p>
+                <p className="font-medium mt-2 text-sm">TV</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -48,7 +48,7 @@ const PaymentCard = () => {
                     <TbLetterW className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">OWealth</p>
+                <p className="font-medium mt-2 text-sm">OWealth</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -56,7 +56,7 @@ const PaymentCard = () => {
                     <FaHandHoldingUsd className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">Loan</p>
+                <p className="font-medium mt-2 text-sm">Loan</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -64,7 +64,7 @@ const PaymentCard = () => {
                     <FaHandHoldingHeart className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">Play4aChild</p>
+                <p className="font-medium mt-2 text-sm">Play4aChild</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -72,7 +72,7 @@ const PaymentCard = () => {
                     <TfiMoreAlt className="text-2xl text-green-700" />
                 </div>
 
-                <p className="font-medium mt-2">More</p>
+                <p className="font-medium mt-2 text-sm">More</p>
             </div>
         </div>
     )

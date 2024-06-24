@@ -11,7 +11,7 @@ const BalanceCard = () => {
 
 
     return (
-        <div className="flex flex-col rounded-xl bg-green-500 space-y-5 p-3 text-white">
+        <div className="flex flex-col justify-center items-center rounded-xl bg-green-500 space-y-5 p-3 mt-20 text-white">
             <div className="flex flex-row space-x-2">
                 <span className="inline-flex space-x-1">
                     <MdGppGood className="inline mt-1"/>

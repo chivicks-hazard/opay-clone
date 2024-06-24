@@ -3,7 +3,7 @@ import { PiHandWithdrawFill } from "react-icons/pi"
 
 const TransferCard = () => {
     return (
-        <div className="flex flex-row mt-5 bg-white py-5 px-4 rounded-xl space-x-16 justify-center items-center">
+        <div className="flex flex-row mt-5 bg-white py-5 px-6 rounded-xl space-x-12 justify-center items-center">
             <div className="flex flex-col justify-center items-center">
                 <div className="p-3 bg-lightGreen-2 rounded-lg">
                     <BsChatSquareFill className="text-3xl text-green-700"/>

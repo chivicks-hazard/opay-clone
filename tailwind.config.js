@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      '2xs': '320px',
+      xs: '480px'
+    },
     extend: {
       colors: {
         lightWhite: '#FFFFFF',
