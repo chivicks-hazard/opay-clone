@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { FaAngleRight, FaEye, FaEyeSlash } from "react-icons/fa6"
 import { MdGppGood } from "react-icons/md"
+import { Link } from "react-router-dom";
 
 const BalanceCard = () => {
     const [displayBalance, setDiplayBalance] = useState(false);
@@ -34,7 +35,11 @@ const BalanceCard = () => {
                             <span className="tracking-wider">****</span>
                     }
                 </h3>
-                <button className="bg-white text-green-500 py-1 px-3 rounded-3xl"><span className="font-medium">+ Add Money</span></button>
+                <Link to="/add-money">
+                    <button className="bg-white text-green-500 py-1 px-3 rounded-3xl">
+                        <span className="font-medium">+ Add Money</span>
+                    </button>
+                </Link>
             </div>
         </div>
     )
