@@ -6,9 +6,9 @@ import TopBar from "../components/TopBar"
 const AddMoneyPage = () => {
     return (
         <div className="bg-gray-50 mx-auto">
-            <div className="flex flex-col justify-cemter items-center mx-4">
+            <div className="flex flex-col justify-center items-center mx-4">
                 <TopBar page="addmoney" />
-                <BankDetailsCard />
+                <BankDetailsCard page="addmoney" />
                 <div className="flex flex-row p-5 text-lg font-bold">
                     OR
                 </div>
