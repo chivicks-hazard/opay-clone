@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import OptionCard from "./OptionCard";
 
 const options = [
     {
         title: 'Cash Deposit',
-        body: 'Fund your account with nearby merchants'
+        body: 'Fund your account with nearby merchants',
+        to: '/add-money/cash-deposit'
     },
     {
         title: 'Top-up with Card/Account',
@@ -24,7 +26,9 @@ const OptionCards = () => {
         <div className="flex flex-col w-100 space-y-5 mb-5">
             {options.map((option) => {
                 return (
-                    <OptionCard title={option.title} body={option.body} />
+                    <Link to={option.to}>
+                        <OptionCard title={option.title} body={option.body} />
+                    </Link>
                 )
             })}
         </div>
