@@ -2,6 +2,7 @@ import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter, crea
 import Homepage from "./pages/Homepage";
 import MainLayout from "./layouts/MainLayout";
 import AddMoneyPage from "./pages/AddMoneyPage";
+import CashDepositPage from "./pages/CashDepositPage";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
           <Route index element={<Homepage />} />
         </Route>
         <Route path="/add-money" element={<AddMoneyPage />} />
+        <Route path="/add-money/cash-deposit" element={<CashDepositPage />} />
       </Routes>
     </BrowserRouter>
   )
