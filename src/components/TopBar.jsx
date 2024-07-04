@@ -32,6 +32,16 @@ const TopBar = ({page}) => {
                 </div>
             )
 
+        case 'cashdeposit':
+            return (
+                <div className="flex flex-row p-5 bg-white fixed top-0 left-0 right-0">
+                    <div className="flex justify-center items-center flex-start space-x-5">
+                        <Link to="/add-money"><FaAngleLeft className="text-2xl mt-1" /></Link>
+                        <h3 className="text-2xl font-medium">Cash Deposit</h3>
+                    </div>
+                </div>
+            )
+
         default:
             break;
     }
