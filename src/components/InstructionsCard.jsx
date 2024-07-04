@@ -1,6 +1,6 @@
 const InstructionsCard = () => {
     return (
-        <div className="p-5 mt-5 bg-white">
+        <div className="p-5 mt-5 rounded-xl container bg-white">
             <h2 className="text-lg font-semibold mb-3">How to make a cash deposit</h2>
             <ol className="list-decimal list-outside ml-3">
                 <li className="mb-2">

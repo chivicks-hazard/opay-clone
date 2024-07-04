@@ -26,7 +26,7 @@ const BankDetailsCard = ({page}) => {
 
         case 'cashdeposit':
             return (
-                <div className="flex flex-row 2xs:space-x-7 rounded-lg bg-white mt-24 py-4 px-5 w-100">
+                <div className="flex flex-row 3xs:max-xs:container justify-center space-x-9 2xs:space-x-20 rounded-xl bg-white mt-24 py-4 px-4 w-100">
                     <div className="flex flex-col mt-5 justify-center">
                         <p className="text-gray-500 text-lg">Opay Account Number</p>
                         <p className="text-3xl font-bold">123 4567 890</p>
