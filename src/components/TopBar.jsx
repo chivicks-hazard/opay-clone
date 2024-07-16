@@ -66,7 +66,7 @@ const TopBar = ({page}) => {
                                 <div className={`border-b-4 ${isActive ? 'border-green-500' : ''} text-lg font-semibold pb-1 3xs:max-2xs:px-7 text-center px-20`}>Bank Card</div>
                             )}
                         </NavLink>
-                        <NavLink to="/add-money/top-up/bank/amount">
+                        <NavLink to="/add-money/top-up/bank/account">
                         {({ isActive }) => (
                                 <div className={`border-b-4 ${isActive ? 'border-green-500' : ''} text-lg font-semibold pb-1 3xs:max-2xs:px-7 text-center px-20`}>Bank Account</div>
                             )}

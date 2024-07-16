@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/add-money/top-up" element={<TopUpPage />} />
         <Route path="/add-money/top-up/bank" element={<TopUpBankPage />}>
           <Route path="card" element={<BankCardForm />} />
-          <Route path="amount" element={<BankAmountForm />} />
+          <Route path="account" element={<BankAmountForm />} />
         </Route>
       </Routes>
     </BrowserRouter>

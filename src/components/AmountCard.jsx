@@ -29,7 +29,7 @@ const AmountCard = () => {
     }
 
     function handleSubmit() {
-        navigate('/add-money/top-up/bank/amount');
+        navigate('/add-money/top-up/bank/card');
     }
 
     return (
