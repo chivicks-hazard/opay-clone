@@ -1,5 +1,5 @@
 {
-  "name": "opay-clone",
+  "name": "my-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "my-clone": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
     "vite-plugin-svgr": "^4.2.0"

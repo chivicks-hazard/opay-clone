@@ -7,23 +7,26 @@ import TopUpPage from "./pages/TopUpPage";
 import TopUpBankPage from "./layouts/TopUpBankPage";
 import BankCardForm from "./components/BankCardForm";
 import BankAmountForm from "./components/BankAccountForm";
+import { HelmetProvider } from "react-helmet-async";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Homepage />} />
-        </Route>
-        <Route path="/add-money" element={<AddMoneyPage />} />
-        <Route path="/add-money/cash-deposit" element={<CashDepositPage />} />
-        <Route path="/add-money/top-up" element={<TopUpPage />} />
-        <Route path="/add-money/top-up/bank" element={<TopUpBankPage />}>
-          <Route path="card" element={<BankCardForm />} />
-          <Route path="account" element={<BankAmountForm />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Homepage />} />
+          </Route>
+          <Route path="/add-money" element={<AddMoneyPage />} />
+          <Route path="/add-money/cash-deposit" element={<CashDepositPage />} />
+          <Route path="/add-money/top-up" element={<TopUpPage />} />
+          <Route path="/add-money/top-up/bank" element={<TopUpBankPage />}>
+            <Route path="card" element={<BankCardForm />} />
+            <Route path="account" element={<BankAmountForm />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   )
 }
 
